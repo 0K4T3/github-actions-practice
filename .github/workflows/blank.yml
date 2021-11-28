@@ -34,3 +34,6 @@ jobs:
 
       - name: Show sample.txt
         run: cat sample.txt
+
+      - name: Run script
+        run: node actions/upload.js

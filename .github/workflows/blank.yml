@@ -29,3 +29,6 @@ jobs:
 
       - name: Show node version
         run: node -v
+
+      - name: Show sample.txt
+        run: cat sample.txt
